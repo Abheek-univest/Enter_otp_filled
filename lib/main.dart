@@ -1,4 +1,5 @@
 import 'package:enter_otp_filled/bottom.dart';
+import 'package:enter_otp_filled/bottom2.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const Myapp());
@@ -15,7 +16,7 @@ class Myapp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: const Text('Univest')),
-        body: bottom(),
+        body: bottom2(),
       ),
     );
   }
